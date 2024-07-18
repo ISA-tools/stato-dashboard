@@ -42,10 +42,9 @@ ontologies:
       domain: Statistics
       homepage: http://stato-ontology.org/
       products:
-        - id: PSI-MS
-        - id: MSIO
-        - id: OBCS
-        - id: SEVCO/EBMonFHIR
+        - id: stato.owl
+        - id: stato.obo
+        - id: stato.rdf
       dependencies:
         - id: BFO
         - id: OBI
@@ -53,8 +52,6 @@ ontologies:
       license:
         url: "https://creativecommons.org/licenses/by/3.0/"
         label: CC BY 3.0.
-      preferredPrefix: "stato"
-      base_ns: 
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
