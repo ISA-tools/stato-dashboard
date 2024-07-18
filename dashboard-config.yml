@@ -35,7 +35,7 @@ ontologies:
     - id: STATO
       mirror_from: https://raw.githubusercontent.com/ISA-tools/stato/dev/releases/latest_release/stato.owl
       title: STATO - STATistics Ontology
-      contact: Philippe Rocca-Serra
+      contact:
         email: proccaserra@gmail.com
         label: Philippe Rocca-Serra
         orcid: 0000-0001-9853-5668
