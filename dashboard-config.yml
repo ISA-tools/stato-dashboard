@@ -27,8 +27,7 @@ obo_score_weights:
     max_impact: 1 
   dashboard:
     impact_factor: 1
-    max_impact: 1
-o...
+    max_impact: 
 ontologies:
   custom:
     - id: STATO
