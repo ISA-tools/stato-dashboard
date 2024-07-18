@@ -30,10 +30,8 @@ obo_score_weights:
     max_impact: 
 ontologies:
   custom:
-    - id: tmp
-      mirror_from: "https://raw.githubusercontent.com/monarch-ebi-dev/robot_tests/master/custom-dashboard.owl"
     - id: STATO
-      mirror_from: https://raw.githubusercontent.com/ISA-tools/stato/dev/releases/latest_release/stato.owl
+      mirror_from: "https://raw.githubusercontent.com/ISA-tools/stato/dev/releases/latest_release/stato.owl"
       title: STATO - STATistics Ontology
       contact:
         email: proccaserra@gmail.com
@@ -49,13 +47,14 @@ ontologies:
         - id: OBCS
         - id: SEVCO/EBMonFHIR
       dependencies:
-        - id: 
-      tracker: https://github.com/ISA-tools/stato/issues
+        - id: BFO
+        - id: OBI
+      tracker: "https://github.com/ISA-tools/stato/issues"
       license:
-        url: https://creativecommons.org/licenses/by/3.0/
+        url: "https://creativecommons.org/licenses/by/3.0/"
         label: CC BY 3.0.
-      preferredPrefix:
-      base_ns: stato
+      preferredPrefix: "stato"
+      base_ns: "http://purl.obolibrary.org/stato.owl"
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
